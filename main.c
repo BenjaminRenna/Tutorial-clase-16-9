@@ -13,7 +13,7 @@ int main() {
 	// malloc(n * sizeof(int)) solicita 'n' bloques de memoria, cada uno del tamaño de un entero.
 	// (int *) es un 'cast' para indicar que la memoria asignada será tratada como un puntero a entero.
 	arr = (int *) malloc(n * sizeof(int));
-	
+	// LOMO DIFIKE
 	// Verificar si la asignacion de memoria fue exitosa
 	// Si malloc no puede asignar la memoria, devuelve NULL. Es crucial verificar esto.
 	if (arr == NULL) {
